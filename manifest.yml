@@ -1,8 +1,10 @@
 applications:
 - path: .
-  memory: 256M
+  memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: hdb-cool-ideas-hack
-  host: hdb-cool-ideas-hack
+  name: hdb-cool-ideas-hack-ts
+  host: hdb-cool-ideas-hack-ts
   disk_quota: 1024M
+  services:
+  - Monitoring and Analytics-f8
